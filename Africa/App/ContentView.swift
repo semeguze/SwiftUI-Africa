@@ -59,6 +59,9 @@ struct ContentView: View {
               }
             }
             .listRowBackground(Color.clear)
+            
+            CreditsView()
+              .modifier(CenterModifier())
           }
         } else {
           ScrollView(.vertical, showsIndicators: false) {
